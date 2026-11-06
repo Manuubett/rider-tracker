@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Stopwatch button -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,20 L61,20 L61,28 L47,28 Z" />
+
+    <!-- Stem -->
+    <path
+        android:pathData="M54,28 L54,35"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5" />
+
+    <!-- Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,36 A25,25 0 1,1 53.99,36"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6" />
+
+    <!-- Hands -->
+    <path
+        android:pathData="M54,61 L54,46"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,61 L64,68"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+</vector>
